@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		375368FD1F6AC3BEFC79FA4F /* Pods_json_fetch_2ndjanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77706C54846E8794646388BD /* Pods_json_fetch_2ndjanTests.framework */; };
+		430BE52807922389FF76EFAC /* Pods_json_fetch_2ndjan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0626A3AF59C21C77A5E1A0 /* Pods_json_fetch_2ndjan.framework */; };
 		4B319F3F23BDBD480033641D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B319F3E23BDBD480033641D /* AppDelegate.swift */; };
 		4B319F4123BDBD480033641D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B319F4023BDBD480033641D /* SceneDelegate.swift */; };
 		4B319F4323BDBD480033641D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B319F4223BDBD480033641D /* ViewController.swift */; };
@@ -15,6 +17,18 @@
 		4B319F4B23BDBD4C0033641D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B319F4923BDBD4C0033641D /* LaunchScreen.storyboard */; };
 		4B319F5623BDBD4D0033641D /* json_fetch_2ndjanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B319F5523BDBD4D0033641D /* json_fetch_2ndjanTests.swift */; };
 		4B319F6123BDBD4D0033641D /* json_fetch_2ndjanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B319F6023BDBD4D0033641D /* json_fetch_2ndjanUITests.swift */; };
+		4B45EB8623F27A24009FA61C /* 5min_record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B45EB7F23F27A23009FA61C /* 5min_record.swift */; };
+		4B45EB8723F27A24009FA61C /* 10min_record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B45EB8023F27A23009FA61C /* 10min_record.swift */; };
+		4B45EB8823F27A24009FA61C /* Lightning_data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B45EB8123F27A23009FA61C /* Lightning_data.swift */; };
+		4B45EB8923F27A24009FA61C /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B45EB8223F27A23009FA61C /* Alert.swift */; };
+		4B45EB8A23F27A24009FA61C /* Hardcode_links.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B45EB8323F27A24009FA61C /* Hardcode_links.swift */; };
+		4B45EB8B23F27A24009FA61C /* Base_DaminiMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B45EB8423F27A24009FA61C /* Base_DaminiMap.swift */; };
+		4B45EB8C23F27A24009FA61C /* 15min_record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B45EB8523F27A24009FA61C /* 15min_record.swift */; };
+		4B5BC6CD23F1620C00AEFAB7 /* ShadowTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5BC6CC23F1620C00AEFAB7 /* ShadowTableViewController.swift */; };
+		4B644D3223C336C700186C39 /* DecodableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B644D3123C336C700186C39 /* DecodableViewController.swift */; };
+		4B644D3423C33E9E00186C39 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B644D3323C33E9E00186C39 /* URL.swift */; };
+		4BBEFAE623E9464400EA2E64 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEFAE523E9464400EA2E64 /* ScrollViewController.swift */; };
+		E2498F19CFF811EC63496719 /* Pods_json_fetch_2ndjan_json_fetch_2ndjanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D9345586412AD7D892E187 /* Pods_json_fetch_2ndjan_json_fetch_2ndjanUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03BBEB2D18D0F704CC6376C6 /* Pods-json_fetch_2ndjan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-json_fetch_2ndjan.release.xcconfig"; path = "Target Support Files/Pods-json_fetch_2ndjan/Pods-json_fetch_2ndjan.release.xcconfig"; sourceTree = "<group>"; };
+		166958C96F8807E0DC9D5870 /* Pods-json_fetch_2ndjanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-json_fetch_2ndjanTests.debug.xcconfig"; path = "Target Support Files/Pods-json_fetch_2ndjanTests/Pods-json_fetch_2ndjanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1D73A7A7C957D32ED37D1689 /* Pods-json_fetch_2ndjan-json_fetch_2ndjanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-json_fetch_2ndjan-json_fetch_2ndjanUITests.release.xcconfig"; path = "Target Support Files/Pods-json_fetch_2ndjan-json_fetch_2ndjanUITests/Pods-json_fetch_2ndjan-json_fetch_2ndjanUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3118055878DAE6CD68506504 /* Pods-json_fetch_2ndjan-json_fetch_2ndjanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-json_fetch_2ndjan-json_fetch_2ndjanUITests.debug.xcconfig"; path = "Target Support Files/Pods-json_fetch_2ndjan-json_fetch_2ndjanUITests/Pods-json_fetch_2ndjan-json_fetch_2ndjanUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4B319F3B23BDBD480033641D /* json_fetch_2ndjan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = json_fetch_2ndjan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B319F3E23BDBD480033641D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B319F4023BDBD480033641D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +67,22 @@
 		4B319F5C23BDBD4D0033641D /* json_fetch_2ndjanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = json_fetch_2ndjanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B319F6023BDBD4D0033641D /* json_fetch_2ndjanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = json_fetch_2ndjanUITests.swift; sourceTree = "<group>"; };
 		4B319F6223BDBD4D0033641D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B45EB7F23F27A23009FA61C /* 5min_record.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 5min_record.swift; sourceTree = "<group>"; };
+		4B45EB8023F27A23009FA61C /* 10min_record.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 10min_record.swift; sourceTree = "<group>"; };
+		4B45EB8123F27A23009FA61C /* Lightning_data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lightning_data.swift; sourceTree = "<group>"; };
+		4B45EB8223F27A23009FA61C /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		4B45EB8323F27A24009FA61C /* Hardcode_links.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hardcode_links.swift; sourceTree = "<group>"; };
+		4B45EB8423F27A24009FA61C /* Base_DaminiMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base_DaminiMap.swift; sourceTree = "<group>"; };
+		4B45EB8523F27A24009FA61C /* 15min_record.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 15min_record.swift; sourceTree = "<group>"; };
+		4B5BC6CC23F1620C00AEFAB7 /* ShadowTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowTableViewController.swift; sourceTree = "<group>"; };
+		4B644D3123C336C700186C39 /* DecodableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodableViewController.swift; sourceTree = "<group>"; };
+		4B644D3323C33E9E00186C39 /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		4BBEFAE523E9464400EA2E64 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		77706C54846E8794646388BD /* Pods_json_fetch_2ndjanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_json_fetch_2ndjanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A7C1F8FD017547900A36788 /* Pods-json_fetch_2ndjan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-json_fetch_2ndjan.debug.xcconfig"; path = "Target Support Files/Pods-json_fetch_2ndjan/Pods-json_fetch_2ndjan.debug.xcconfig"; sourceTree = "<group>"; };
+		B3D9345586412AD7D892E187 /* Pods_json_fetch_2ndjan_json_fetch_2ndjanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_json_fetch_2ndjan_json_fetch_2ndjanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3CD8EC15983FF5297D95AE0 /* Pods-json_fetch_2ndjanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-json_fetch_2ndjanTests.release.xcconfig"; path = "Target Support Files/Pods-json_fetch_2ndjanTests/Pods-json_fetch_2ndjanTests.release.xcconfig"; sourceTree = "<group>"; };
+		DB0626A3AF59C21C77A5E1A0 /* Pods_json_fetch_2ndjan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_json_fetch_2ndjan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				430BE52807922389FF76EFAC /* Pods_json_fetch_2ndjan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				375368FD1F6AC3BEFC79FA4F /* Pods_json_fetch_2ndjanTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +106,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2498F19CFF811EC63496719 /* Pods_json_fetch_2ndjan_json_fetch_2ndjanUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00E1D10183C517807A359A4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB0626A3AF59C21C77A5E1A0 /* Pods_json_fetch_2ndjan.framework */,
+				B3D9345586412AD7D892E187 /* Pods_json_fetch_2ndjan_json_fetch_2ndjanUITests.framework */,
+				77706C54846E8794646388BD /* Pods_json_fetch_2ndjanTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1CEC7CD5D911B07E1C60BE85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A7C1F8FD017547900A36788 /* Pods-json_fetch_2ndjan.debug.xcconfig */,
+				03BBEB2D18D0F704CC6376C6 /* Pods-json_fetch_2ndjan.release.xcconfig */,
+				3118055878DAE6CD68506504 /* Pods-json_fetch_2ndjan-json_fetch_2ndjanUITests.debug.xcconfig */,
+				1D73A7A7C957D32ED37D1689 /* Pods-json_fetch_2ndjan-json_fetch_2ndjanUITests.release.xcconfig */,
+				166958C96F8807E0DC9D5870 /* Pods-json_fetch_2ndjanTests.debug.xcconfig */,
+				D3CD8EC15983FF5297D95AE0 /* Pods-json_fetch_2ndjanTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4B319F3223BDBD480033641D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +143,8 @@
 				4B319F5423BDBD4D0033641D /* json_fetch_2ndjanTests */,
 				4B319F5F23BDBD4D0033641D /* json_fetch_2ndjanUITests */,
 				4B319F3C23BDBD480033641D /* Products */,
+				1CEC7CD5D911B07E1C60BE85 /* Pods */,
+				00E1D10183C517807A359A4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,8 +164,13 @@
 				4B319F3E23BDBD480033641D /* AppDelegate.swift */,
 				4B319F4023BDBD480033641D /* SceneDelegate.swift */,
 				4B319F4223BDBD480033641D /* ViewController.swift */,
+				4B644D3123C336C700186C39 /* DecodableViewController.swift */,
+				4BBEFAE523E9464400EA2E64 /* ScrollViewController.swift */,
+				4B644D3323C33E9E00186C39 /* URL.swift */,
+				4B5BC6CC23F1620C00AEFAB7 /* ShadowTableViewController.swift */,
 				4B319F4423BDBD480033641D /* Main.storyboard */,
 				4B319F4723BDBD4C0033641D /* Assets.xcassets */,
+				4B45EB8D23F28A57009FA61C /* Damini_Objects */,
 				4B319F4923BDBD4C0033641D /* LaunchScreen.storyboard */,
 				4B319F4C23BDBD4C0033641D /* Info.plist */,
 			);
@@ -128,6 +195,20 @@
 			path = json_fetch_2ndjanUITests;
 			sourceTree = "<group>";
 		};
+		4B45EB8D23F28A57009FA61C /* Damini_Objects */ = {
+			isa = PBXGroup;
+			children = (
+				4B45EB8423F27A24009FA61C /* Base_DaminiMap.swift */,
+				4B45EB7F23F27A23009FA61C /* 5min_record.swift */,
+				4B45EB8023F27A23009FA61C /* 10min_record.swift */,
+				4B45EB8523F27A24009FA61C /* 15min_record.swift */,
+				4B45EB8223F27A23009FA61C /* Alert.swift */,
+				4B45EB8323F27A24009FA61C /* Hardcode_links.swift */,
+				4B45EB8123F27A23009FA61C /* Lightning_data.swift */,
+			);
+			path = Damini_Objects;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B319F6523BDBD4D0033641D /* Build configuration list for PBXNativeTarget "json_fetch_2ndjan" */;
 			buildPhases = (
+				2F20DF3DD0D187C025781B71 /* [CP] Check Pods Manifest.lock */,
 				4B319F3723BDBD480033641D /* Sources */,
 				4B319F3823BDBD480033641D /* Frameworks */,
 				4B319F3923BDBD480033641D /* Resources */,
+				327F0D6ADD738DFD25113F67 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +235,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B319F6823BDBD4D0033641D /* Build configuration list for PBXNativeTarget "json_fetch_2ndjanTests" */;
 			buildPhases = (
+				1232980EC9BF3D383587B6AC /* [CP] Check Pods Manifest.lock */,
 				4B319F4D23BDBD4D0033641D /* Sources */,
 				4B319F4E23BDBD4D0033641D /* Frameworks */,
 				4B319F4F23BDBD4D0033641D /* Resources */,
@@ -170,9 +254,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B319F6B23BDBD4D0033641D /* Build configuration list for PBXNativeTarget "json_fetch_2ndjanUITests" */;
 			buildPhases = (
+				227DD8B12EC89D870A6421CB /* [CP] Check Pods Manifest.lock */,
 				4B319F5823BDBD4D0033641D /* Sources */,
 				4B319F5923BDBD4D0033641D /* Frameworks */,
 				4B319F5A23BDBD4D0033641D /* Resources */,
+				BE175E10281929E321F2F57F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,13 +340,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1232980EC9BF3D383587B6AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-json_fetch_2ndjanTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		227DD8B12EC89D870A6421CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-json_fetch_2ndjan-json_fetch_2ndjanUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F20DF3DD0D187C025781B71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-json_fetch_2ndjan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		327F0D6ADD738DFD25113F67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-json_fetch_2ndjan/Pods-json_fetch_2ndjan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-json_fetch_2ndjan/Pods-json_fetch_2ndjan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-json_fetch_2ndjan/Pods-json_fetch_2ndjan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE175E10281929E321F2F57F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-json_fetch_2ndjan-json_fetch_2ndjanUITests/Pods-json_fetch_2ndjan-json_fetch_2ndjanUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-json_fetch_2ndjan-json_fetch_2ndjanUITests/Pods-json_fetch_2ndjan-json_fetch_2ndjanUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-json_fetch_2ndjan-json_fetch_2ndjanUITests/Pods-json_fetch_2ndjan-json_fetch_2ndjanUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4B319F3723BDBD480033641D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B644D3423C33E9E00186C39 /* URL.swift in Sources */,
+				4B5BC6CD23F1620C00AEFAB7 /* ShadowTableViewController.swift in Sources */,
+				4BBEFAE623E9464400EA2E64 /* ScrollViewController.swift in Sources */,
+				4B45EB8C23F27A24009FA61C /* 15min_record.swift in Sources */,
+				4B45EB8623F27A24009FA61C /* 5min_record.swift in Sources */,
 				4B319F4323BDBD480033641D /* ViewController.swift in Sources */,
+				4B45EB8A23F27A24009FA61C /* Hardcode_links.swift in Sources */,
 				4B319F3F23BDBD480033641D /* AppDelegate.swift in Sources */,
+				4B45EB8823F27A24009FA61C /* Lightning_data.swift in Sources */,
+				4B45EB8723F27A24009FA61C /* 10min_record.swift in Sources */,
+				4B45EB8923F27A24009FA61C /* Alert.swift in Sources */,
+				4B45EB8B23F27A24009FA61C /* Base_DaminiMap.swift in Sources */,
+				4B644D3223C336C700186C39 /* DecodableViewController.swift in Sources */,
 				4B319F4123BDBD480033641D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +632,7 @@
 		};
 		4B319F6623BDBD4D0033641D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A7C1F8FD017547900A36788 /* Pods-json_fetch_2ndjan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +650,7 @@
 		};
 		4B319F6723BDBD4D0033641D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03BBEB2D18D0F704CC6376C6 /* Pods-json_fetch_2ndjan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +668,7 @@
 		};
 		4B319F6923BDBD4D0033641D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 166958C96F8807E0DC9D5870 /* Pods-json_fetch_2ndjanTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +690,7 @@
 		};
 		4B319F6A23BDBD4D0033641D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3CD8EC15983FF5297D95AE0 /* Pods-json_fetch_2ndjanTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +712,7 @@
 		};
 		4B319F6C23BDBD4D0033641D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3118055878DAE6CD68506504 /* Pods-json_fetch_2ndjan-json_fetch_2ndjanUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +732,7 @@
 		};
 		4B319F6D23BDBD4D0033641D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D73A7A7C957D32ED37D1689 /* Pods-json_fetch_2ndjan-json_fetch_2ndjanUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

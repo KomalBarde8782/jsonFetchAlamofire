@@ -1,0 +1,6 @@
+framework module Pods_json_fetch_2ndjanTests {
+  umbrella header "Pods-json_fetch_2ndjanTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
